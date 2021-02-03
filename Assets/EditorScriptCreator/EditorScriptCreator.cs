@@ -12,7 +12,7 @@ public class EditorScriptCreator : Editor
 
 
     [MenuItem(MANU_NAME,false, 100)]
-    private static void DoSomething()
+    private static void CreateEditorScript()
     {
         string assetName = Selection.activeObject.name;
         string assetFullPath = AssetDatabase.GetAssetPath(Selection.activeObject);
