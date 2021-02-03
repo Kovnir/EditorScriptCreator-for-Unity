@@ -2,6 +2,10 @@
 
 **EditorScriptCreator** - is a super-simple tool for fast creating templates for [Editor](https://docs.unity3d.com/ScriptReference/Editor.html) script!
 
+## How to use
+
+<img width="700" src="tutorial.gif">
+
 ## Pros and Cons
 
 ### Pros
@@ -16,6 +20,3 @@
 - Copy `EditorScriptCreator` to your project;
 - Enjoy!
 
-## How to use
-
-<img width="700" src="tutorial.gif">
