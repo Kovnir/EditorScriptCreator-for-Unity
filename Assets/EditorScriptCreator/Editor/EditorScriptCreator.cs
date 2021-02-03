@@ -73,7 +73,7 @@ public class EditorScriptCreator : Editor
             "",
             $"[CustomEditor(typeof({assetName}))]",
             "[CanEditMultipleObjects]",
-            "public class NewBehaviourScriptEditor : Editor",
+            $"public class {assetName}Editor : Editor",
             "{",
             $"\tprivate {assetName} {GenerateVariableName(assetName)} => target as {assetName};",
             "",
