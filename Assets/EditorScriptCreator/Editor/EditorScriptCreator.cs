@@ -8,10 +8,10 @@ using UnityEngine;
 
 public class EditorScriptCreator : Editor
 {
-    private const string MANU_NAME = "Assets/Create/== Create Editor Script ==";
+    private const string MANU_NAME = "Assets/Create/Create Editor Script";
 
 
-    [MenuItem(MANU_NAME)]
+    [MenuItem(MANU_NAME,false, 100)]
     private static void DoSomething()
     {
         string assetName = Selection.activeObject.name;
